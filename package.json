@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "dev": "webpack-dev-server --hot",
+        "dev": "webpack-dev-server --hot --host 0.0.0.0 --port 3000",
         "build": "cross-env NODE_ENV=production webpack"
     },
     "keywords": [
@@ -18,7 +18,7 @@
     "author": "Pon Cheol Ku <dev@bbon.kr> (http://bbon.kr)",
     "license": "MIT",
     "dependencies": {
-        "@bbon/filedownload": "^1.1.0",
+        "@bbon/filedownload": "^1.1.1",
         "axios": "^0.20.0",
         "github-fork-ribbon-css": "^0.2.3",
         "react": "^16.13.1",

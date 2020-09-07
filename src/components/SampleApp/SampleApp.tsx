@@ -5,7 +5,7 @@ import { FileDownloadHelper } from '@bbon/filedownload';
 import 'github-fork-ribbon-css/gh-fork-ribbon.css';
 
 export const SampleApp = () => {
-    const [fileName, setFileName] = useState('sample');
+    const [fileName, setFileName] = useState('sample.png');
     const [fileDownloadUrl, setFileDownloadUrl] = useState('images/sample.png');
     const [loading, setLoading] = useState(false);
 

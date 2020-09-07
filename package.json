@@ -5,11 +5,18 @@
     "main": "index.js",
     "scripts": {
         "dev": "webpack-dev-server --hot",
-        "build": "webpack"
+        "build": "cross-env NODE_ENV=production webpack"
     },
-    "keywords": [],
+    "keywords": [
+        "@bbon/filedownload",
+        "typescript",
+        "npm",
+        "example",
+        "react",
+        "webpack"
+    ],
     "author": "Pon Cheol Ku <dev@bbon.kr> (http://bbon.kr)",
-    "license": "ISC",
+    "license": "MIT",
     "dependencies": {
         "@bbon/filedownload": "^1.1.0",
         "axios": "^0.20.0",
@@ -25,6 +32,7 @@
         "@types/react-dom": "^16.9.8",
         "babel-loader": "^8.1.0",
         "copy-webpack-plugin": "^6.1.0",
+        "cross-env": "^7.0.2",
         "css-loader": "^4.2.2",
         "eslint": "^7.8.1",
         "eslint-config-airbnb": "^18.2.0",

@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import Axios, { AxiosRequestConfig } from 'axios';
 import { FileDownloadHelper } from '@bbon/filedownload';
 
+import 'github-fork-ribbon-css/gh-fork-ribbon.css';
+
 export const SampleApp = () => {
     const [fileName, setFileName] = useState('sample');
     const [fileDownloadUrl, setFileDownloadUrl] = useState('/images/sample.png');
@@ -99,6 +101,15 @@ export const SampleApp = () => {
                     Download
                 </button>
             </form>
+
+            <a
+                className="github-fork-ribbon"
+                href="https://github.com/bbonkr/bbon-filedownload-sample"
+                data-ribbon="Fork me on GitHub"
+                title="Fork me on GitHub"
+            >
+                Fork me on GitHub
+            </a>
         </div>
     );
 };

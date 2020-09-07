@@ -13,6 +13,7 @@
     "dependencies": {
         "@bbon/filedownload": "^1.1.0",
         "axios": "^0.20.0",
+        "github-fork-ribbon-css": "^0.2.3",
         "react": "^16.13.1",
         "react-dom": "^16.13.1"
     },

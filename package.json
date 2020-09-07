@@ -18,7 +18,7 @@
     "author": "Pon Cheol Ku <dev@bbon.kr> (http://bbon.kr)",
     "license": "MIT",
     "dependencies": {
-        "@bbon/filedownload": "^1.1.1",
+        "@bbon/filedownload": "^1.1.2",
         "axios": "^0.20.0",
         "github-fork-ribbon-css": "^0.2.3",
         "react": "^16.13.1",
